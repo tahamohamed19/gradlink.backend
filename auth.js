@@ -119,4 +119,6 @@ router.post('/login', [
   }
 });
 
+router.use(errors());
+
 module.exports = router;
